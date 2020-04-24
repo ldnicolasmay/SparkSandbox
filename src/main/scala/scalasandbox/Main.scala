@@ -1,6 +1,7 @@
 package scalasandbox
 
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.{col, udf}
 
 
 object Main {
@@ -30,6 +31,13 @@ object Main {
     logData.filter($"length" > 1000).show()
     logData.select("artist").distinct().orderBy("artist").show()
     logData.select("page").distinct().orderBy("page").show()
+
+    // get_hour = udf(lambda x: datetime.datetime.fromtimestamp(x / 1000.0).hour)  # udf = user-defined function
+    val multTen = udf((x: Double) => x * 10)
+    logData
+      .withColumn("lengthMultTen", multTen($"length"))
+      .select($"length", $"lengthMultTen")
+      .show()
 
     spark.stop()
 

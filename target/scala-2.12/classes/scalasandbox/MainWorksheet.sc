@@ -17,11 +17,17 @@ import spark.implicits._
 val logData = spark.read.json(jsonPathStr)
 
 logData.show()
+
 logData.printSchema()
+
 logData.select("artist").show()
+
 logData.select($"artist", $"song").show()
+
 logData.filter($"length" > 1000).show()
+
 logData.select("artist").distinct().orderBy("artist").show()
+
 logData.select("page").distinct().orderBy("page").show()
 
 spark.stop()
