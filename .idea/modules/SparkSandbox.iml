@@ -12,6 +12,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.amazonaws:aws-java-sdk-bundle:1.11.271:jar" level="project" />
     <orderEntry type="library" name="sbt: com.carrotsearch:hppc:0.7.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.clearspring.analytics:stream:2.7.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:kryo-shaded:4.0.2:jar" level="project" />
@@ -83,6 +84,7 @@
     <orderEntry type="library" name="sbt: org.apache.directory.server:apacheds-kerberos-codec:2.0.0-M15:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-annotations:2.6.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-aws:2.10.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client:2.6.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:2.6.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:2.6.5:jar" level="project" />

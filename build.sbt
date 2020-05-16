@@ -9,3 +9,12 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.5"
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.5"
+
+//// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws
+//libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "2.7.5"
+
+// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws
+libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "2.10.0"
+
+//// https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws
+//libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "3.2.1"
