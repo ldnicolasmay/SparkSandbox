@@ -1,4 +1,12 @@
-*.class
-
+.idea/
 project/
 target/
+out/
+conf/
+resources/
+
+*.class
+
+*.conf
+*.txt
+*.csv
